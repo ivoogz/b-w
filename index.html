@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Black&White</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+	<section class="ventanaGlo1" id="vent1">
+		<div class="ventana1" id="vent2">
+			<h3>DONDE ESTAMOS</h3>
+			<div class="linea"></div>
+			<div class="chico">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1381.1761492660066!2d-58.47906579802143!3d-34.57863863383233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7a5fee66d25%3A0xe66ab1f48f359175!2sWestern%20Union!5e0!3m2!1ses-419!2sar!4v1611273752622!5m2!1ses-419!2sar" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+			<div class="medio">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1381.1761492660066!2d-58.47906579802143!3d-34.57863863383233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7a5fee66d25%3A0xe66ab1f48f359175!2sWestern%20Union!5e0!3m2!1ses-419!2sar!4v1611273752622!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+			<div class="quitar"><a href="javascript:cerrar()">X</a></div>
+		</div>
+	</section>
+
+	<section class="ventanaGlo1" id="vent3">
+		<div class="ventana1" id="vent4">
+			<h3>PRECIOS</h3>
+			<div class="linea"></div>
+			<img src="lista.png">
+			<div class="quitar"><a href="javascript:cerrar2()">X</a></div>
+		</div>
+	</section>
+
+	<section class="ventanaGlo1" id="vent5">
+		<div class="ventana1" id="vent6">
+			<h3>CONTACTO</h3>
+			<div class="linea"></div>
+			<div class="quitar"><a href="javascript:cerrar3()">X</a></div>
+		</div>
+	</section>
+
+	<div id="contenedor">
+
+		<div class="inicio">
+			<nav>
+				<input type="checkbox" id="check">
+				<label for="check" class="checkBoton">
+					<i class="fas fa-bars"></i>
+				</label>
+				<label class="logo">BLACK INC.</label>
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Trabajos</a></li>
+					<li><a href="#">Precios</a></li>
+					<li><a href="#">Dónde estamos</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+
+			<div class="clearfix"></div>
+
+			<div id="inicio-imagen">
+				<h1>Black&White</h1>
+				<p>Tatto Studio - CABA</p>
+			</div>
+
+		</div>
+	
+		<div id="galeria">
+			
+            <h1 class="titulo">NUESTRA GALERIA</h1>
+           
+           	<div class="linea"></div>
+
+           	<ul class="galeria">
+           		<li><a><img src="tattos/1.png" id="imagen1"></a></li>
+           		<li><a><img src="tattos/2.png" id="imagen2"></a></li>
+           		<li><a><img src="tattos/3.png" id="imagen3"></a></li>
+           		<li><a><img src="tattos/4.png" id="imagen4"></a></li>
+           		<li><a><img src="tattos/5.png" id="imagen5"></a></li>
+           		<li><a><img src="tattos/6.png" id="imagen6"></a></li>
+           		<li><a><img src="tattos/7.png" id="imagen7"></a></li>
+           		<li><a><img src="tattos/8.png" id="imagen8"></a></li>
+           	</ul>
+		
+			<div class="vermas">
+				<a href="https://www.instagram.com" target="_BLANK">VER MAS</a>
+			</div>
+		</div>
+
+		<div id="seccionesA">
+			<h1>ACERCA DE</h1>
+
+			<div class="linea"></div>
+
+			<div id="seccionesB">
+				<div class="card">
+					<img src="cards/card1.jpg">
+					<h4>UBICACION</h4>
+					<p>Nuestros horarios son entre 15 y 17</p>
+					<a href="javascript:abrir()">VER MAS</a>
+				</div>
+
+				<div class="card">
+					<img src="cards/card2.jpg">
+					<h4>PRECIOS</h4>
+					<p>Nuestros precios varian dependiendo el tatuaje pero te dejamos una lista por aca de los precios</p>
+					<a href="javascript:abrir2()">VER MAS</a>
+				</div>
+
+				<div class="card">
+					<img src="cards/card3.jpg">
+					<h4>CONTACTO</h4>
+					<p>Para contactar</p>
+					<a href="javascript:abrir3()">VER MAS</a>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="clearfix"></div>
+
+		<footer>
+			<br>
+			<a href="https://www.instagram.com" target="_BLANK"><img src="insta.png" id="instagram"></a>
+			<a href="https://www.facebook.com" target="_BLANK"><img src="face.png" id="facebook"></a>
+			<h3>TODOS LOS DERECHOS RESERVADOS A B&W</h3>
+			<p>Pagina creada por <a href="">akaGz</a></p>
+			<br>
+			<br>
+		</footer>
+	</div>
+	<script>
+
+		function abrir() {
+			document.getElementById("vent1").style.display="block";
+			document.getElementById("vent2").style.display="block";
+		}
+
+		function cerrar() {
+			document.getElementById("vent1").style.display="none";
+		}
+
+		function abrir2() {
+			document.getElementById("vent3").style.display="block";
+			document.getElementById("vent4").style.display="block";
+		}
+
+		function cerrar2() {
+			document.getElementById("vent3").style.display="none";
+		}
+
+		function abrir3() {
+			document.getElementById("vent5").style.display="block";
+			document.getElementById("vent6").style.display="block";
+		}
+
+		function cerrar3() {
+			document.getElementById("vent5").style.display="none";
+		}
+
+	</script>
+</body>
+
+</html>
